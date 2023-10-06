@@ -81,7 +81,9 @@ It was trained on predictions of the additional model trained at the part of the
 The model is able to predict the current gesture using 5-timestamp window of OMG sensors with very high quality even in transit zones. 
 It is advanced enough to distinguish the cases like plotted below where some changes registered by sensors does not correspond the gesture change. 
 
-<center> <img src=figures/sample_test1.png align="center" width="800"/> </center>
+<div style="text-align:center;"> 
+    <img src=figures/sample_test1.png width="800"/> 
+</div>
 
 The palm stays open despite some minor movements of the muscles and ligaments of the pilot's arm, and our model understands it.
 
