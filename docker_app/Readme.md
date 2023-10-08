@@ -18,5 +18,5 @@ Use [gesture_classification_client.py](https://github.com/MapleBloom/GestureClas
 
 It returns `.csv` with predicted gesture labels and plots prediction vs OMG sensors data. 
 
-<center> <img src=https://github.com/MapleBloom/GestureClassificationByOMG/tree/main/figures/sample_test14.png align="center" width="800"/> </center>
+<center> <img src=https://github.com/MapleBloom/GestureClassificationByOMG/blob/main/figures/sample_test14.png align="center" width="800"/> </center>
 <hr>
