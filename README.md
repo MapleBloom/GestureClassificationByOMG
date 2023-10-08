@@ -12,6 +12,12 @@ matplotlib.pyplot, pickle, zipfile.ZipFile
 
 Follow [classification_research.ipynb](classification_research.ipynb) to deep into the project.  
 Or just start [gesture_classification.py](gesture_classification.py) to visualize the prediction of the model.
+
+*
+
+The model could be started from [Docker image](https://hub.docker.com/repository/docker/maplebloom/server_image/general).  
+Use [gesture_classification_client.py](gesture_classification_client.py) in order to request gesture prediction for [X_test.zip](data/X_test.zip).  
+It returns `.csv` with predicted gesture labels and plots prediction vs OMG sensors data.
 <br>
 
 ### Data  
@@ -87,10 +93,10 @@ It is advanced enough to distinguish the cases like plotted below where some cha
 
 The palm stays open despite some minor movements of the muscles and ligaments of the pilot's arm, and our model understands it.
 
-Conclusions.  
+**Conclusions**.  
 A simple linear model is sufficient to distinguish simple gestures by OMG data.
 
-Restrictions.  
+**Restrictions**.  
 The train and test datasets were collected at the same consecutive process. We do not have data to verify the quality of the model's predictions on test data collected from the same pilot but after the cuff with sensors has been removed and reattached.
 <br>
 
