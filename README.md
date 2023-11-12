@@ -7,6 +7,10 @@ matplotlib.pyplot, pickle, zipfile.ZipFile
 :arrow_down: [Problem](README.md#problem)  
 :arrow_down: [Hypothesis](README.md#hypothesis)  
 :arrow_down: [Results](README.md#results)
+
+*This dataset was created by [Motorica LLC](https://global.motorica.org/). The access to the data was specified in the NDA between Motorica LLC and Skillfactory. 
+<br>
+Industry supervisor - Maxim Balashov.*
 <hr>
 <br>
 
